@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a id="link_logo" href="#home">
+                <img src="assets/logo.png" title="Logo" alt="Logo" width="64px" height="64px">
+            </a>
+            <a id="link_home" href="#home">Home</a>
+            <a id="link_product" href="#product">Product</a>
+            <a id="link_contact" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h1>First landing</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#product">Coming soon</a>
+        </div>
+        <!-- ROW -->
+        <div id="product">
+            <!-- COLUMN -->
+            <div id="col-1">
+                <div>
+                    <h2>Harder</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <img src="assets/laptop.png" title="Laptop" alt="Laptop">
+            </div>
+            <!-- COLUMN -->
+            <div id="col-2">
+                <div>
+                    <h2>Better</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <img src="assets/headphone.png" title="Headphone" alt="Headphone">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div id="contact-col1">
+                <a id="footer_link_logo" href="#home">
+                    <img src="assets/logo.png" title="Logo" alt="Logo" width="64px" height="64px">
+                </a>
+                <div>
+                    <a id="footer_link_home" href="#home">Home</a>
+                    <a id="footer_link_product" href="#product">Product</a>
+                    <a id="footer_link_contact" href="#contact">Contact</a>
+                </div>
+                <p>&copy;2024</p>
+            </div>
+            <div id="contact-col2">
+                <form>
+                    <h5>Sign up for the waiting list</h5>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" required placeholder="you@example.com">
+                    </div>
+                    <div>
+                        <label for="agree">
+                            <input id="agree" type="checkbox" required>
+                            I agree receive emails
+                        </label>
+                    </div>
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
